@@ -1,15 +1,12 @@
 .blue-color {
     color: #3bb7e8;
 }
-
 .blue-bg {
     background: #3bb7e8;
 }
-
 .blue-line {
     border-bottom: 3px solid #3bb7e8;
 }
-
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -17,14 +14,12 @@
 body {
     height: 2000px;
 }
-
 header {
     overflow: hidden;
     height: 612px;
     padding: 20px 0;
     position: relative;
 }
-
 header .se-slope {
     position: absolute;
     border: 0 solid #000;
@@ -36,13 +31,11 @@ header .se-slope {
     padding: 26px 0 0 0;
     overflow: hidden;
 }
-
 header .se-slope .container {
     position: relative;
     z-index: 10;
     height: 100%;
 }
-
 header .se-slope .header-bg {
     position: absolute;
     z-index: 1;
@@ -56,38 +49,33 @@ header .se-slope .header-bg {
         -ms-transform-origin: left center;
         transform-origin: left center;*/
 }
-
 header .logo-header {
     position: relative;
     height: 100%;
     z-index: 5;
 }
-
 header .logo-header img {
     width: 167px;
     height: 95px;
 }
-
 header .header-description {
+    z-index: 5;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 34px;
     background: rgba(0, 0, 0, 0.28);
 }
-
 header .header-description h1 {
     font-family: Bebas;
     font-size: 570%;
     color: #ffffff;
     font-weight: 400;
 }
-
 header .header-description p {
     background: rgba(0, 0, 0, 0.28);
     margin: 0;
     padding: 5px 27px;
 }
-
 header .overflow-block {
     width: 120%;
     height: 119px;

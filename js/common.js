@@ -8,6 +8,11 @@ $(document).ready(function () {
         .addIndicators()
         .addTo(controller);
 
+    new ScrollMagic.Scene({triggerElement: ".parallax-2"})
+        .setTween(".parallax-2 > .services-image", {y: "80%", ease: Linear.easeNone})
+        .addIndicators()
+        .addTo(controller);
+
     /*new ScrollMagic.Scene({triggerElement: "#trigger1"})
      .setTween(".logo-header", {y: "120%", ease: Linear.easeNone})
      .addIndicators()
