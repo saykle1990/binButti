@@ -1,0 +1,20 @@
+.blue-color {
+    color: #3bb7e8;
+}
+
+.blue-bg {
+    background: #3bb7e8;
+}
+
+.blue-line {
+    border-bottom: 3px solid #3bb7e8;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    height: 2000px;
+}

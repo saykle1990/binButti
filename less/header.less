@@ -1,3 +1,73 @@
-body {
-  background: #ffffff;
+@import (less) "classes.less";
+
+header {
+  overflow: hidden;
+  height: 612px;
+  padding: 20px 0;
+  position: relative;
+  .se-slope {
+    position: absolute;
+    border: 0 solid #000;
+    background: #ccc;
+    display: block;
+    height: 105%;
+    width: 120%;
+    margin: 0 -50px;
+    padding: 26px 0 0 0;
+    overflow: hidden;
+    .container {
+      position: relative;
+      z-index: 10;
+      height: 100%;
+    }
+    .header-bg {
+      position: absolute;
+      z-index: 1;
+      top: -110%;
+      left: -38%;
+      width: 125%;
+      /*transform: rotate(-3deg);
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      -ms-transform-origin: left center;
+      transform-origin: left center;*/
+    }
+  }
+  .logo-header {
+    position: relative;
+    height: 100%;
+    z-index: 5;
+    img {
+      width: 167px;
+      height: 95px;
+    }
+  }
+  .header-description {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 34px;
+    background: rgba(0, 0, 0, 0.28);
+    h1 {
+      .font(Bebas, 570%, #fff);
+      font-weight: 400;
+    }
+    p {
+      background: rgba(0, 0, 0, 0.28);
+      margin: 0;
+      padding: 5px 27px;
+    }
+  }
+  .overflow-block {
+    width: 120%;
+    height: 119px;
+    background: #fff;
+    position: absolute;
+    bottom: -73px;
+    left: -30px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 5;
+    transform: rotateZ(3deg);
+  }
 }

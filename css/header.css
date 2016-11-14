@@ -1,3 +1,102 @@
+.blue-color {
+    color: #3bb7e8;
+}
+
+.blue-bg {
+    background: #3bb7e8;
+}
+
+.blue-line {
+    border-bottom: 3px solid #3bb7e8;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
 body {
-  background: #ffffff;
+    height: 2000px;
+}
+
+header {
+    overflow: hidden;
+    height: 612px;
+    padding: 20px 0;
+    position: relative;
+}
+
+header .se-slope {
+    position: absolute;
+    border: 0 solid #000;
+    background: #ccc;
+    display: block;
+    height: 105%;
+    width: 120%;
+    margin: 0 -50px;
+    padding: 26px 0 0 0;
+    overflow: hidden;
+}
+
+header .se-slope .container {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+}
+
+header .se-slope .header-bg {
+    position: absolute;
+    z-index: 1;
+    top: -110%;
+    left: -38%;
+    width: 125%;
+    /*transform: rotate(-3deg);
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        -ms-transform-origin: left center;
+        transform-origin: left center;*/
+}
+
+header .logo-header {
+    position: relative;
+    height: 100%;
+    z-index: 5;
+}
+
+header .logo-header img {
+    width: 167px;
+    height: 95px;
+}
+
+header .header-description {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 34px;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+header .header-description h1 {
+    font-family: Bebas;
+    font-size: 570%;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+header .header-description p {
+    background: rgba(0, 0, 0, 0.28);
+    margin: 0;
+    padding: 5px 27px;
+}
+
+header .overflow-block {
+    width: 120%;
+    height: 119px;
+    background: #fff;
+    position: absolute;
+    bottom: -73px;
+    left: -30px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 5;
+    transform: rotateZ(3deg);
 }
