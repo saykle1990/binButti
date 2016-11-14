@@ -1,0 +1,39 @@
+@font-face {
+    font-family: CenturyRegular;
+    src: url(../fonts/Century_Gothic_Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: CenturyBold;
+    src: url(../fonts/Century_Gothic_Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: CenturyBoldItalic;
+    src: url(../fonts/Century_Gothic_Bold_Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: CenturyItalic;
+    src: url(../fonts/Century_Gothic_Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/Bebas_Regular.ttf);
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+}
