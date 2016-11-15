@@ -1,0 +1,35 @@
+@import (less) "classes.less";
+
+footer {
+  height: 100px;
+  background: @blue;
+  .footer-content {
+    ul {
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        a {
+          .font(CenturyRegular, 120%, #fff);
+          text-decoration: none;
+        }
+      }
+      &.social {
+        li {
+          margin-right: 10px;
+          a {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: #fff;
+            color: @blue;
+            display: block;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

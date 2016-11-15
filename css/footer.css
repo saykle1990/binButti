@@ -1,0 +1,45 @@
+.blue-color {
+  color: #3bb7e8;
+}
+.blue-bg {
+  background: #3bb7e8;
+}
+.blue-line {
+  border-bottom: 3px solid #3bb7e8;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.overflow-h {
+  overflow: hidden;
+}
+footer {
+  height: 100px;
+  background: #3bb7e8;
+}
+footer .footer-content ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+footer .footer-content ul li a {
+  font-family: CenturyRegular;
+  font-size: 120%;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .footer-content ul.social li {
+  margin-right: 10px;
+}
+footer .footer-content ul.social li a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+  color: #3bb7e8;
+  display: block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}

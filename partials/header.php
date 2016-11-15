@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/header.css"/>
     <link rel="stylesheet" href="css/classes.css"/>
     <link rel="stylesheet" href="css/footer.css"/>

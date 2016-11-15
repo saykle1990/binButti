@@ -11,13 +11,13 @@
     padding-left: 0;
     padding-right: 0;
 }
-body {
-    height: 2000px;
+
+.overflow-h {
+    overflow: hidden;
 }
 header {
     overflow: hidden;
     height: 612px;
-    padding: 20px 0;
     position: relative;
 }
 header .se-slope {

@@ -1,16 +1,16 @@
 .blue-color {
-    color: #3bb7e8;
+  color: #3bb7e8;
 }
 .blue-bg {
-    background: #3bb7e8;
+  background: #3bb7e8;
 }
 .blue-line {
-    border-bottom: 3px solid #3bb7e8;
+  border-bottom: 3px solid #3bb7e8;
 }
 .no-padding {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-body {
-    height: 2000px;
+.overflow-h {
+  overflow: hidden;
 }

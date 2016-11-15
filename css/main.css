@@ -1,24 +1,24 @@
 .blue-color {
     color: #3bb7e8;
 }
-
 .blue-bg {
     background: #3bb7e8;
 }
-
 .blue-line {
     border-bottom: 3px solid #3bb7e8;
 }
-
 .no-padding {
     padding-left: 0;
     padding-right: 0;
 }
 
-body {
-    height: 2000px;
+.overflow-h {
+    overflow: hidden;
 }
 
+.main-nav {
+    margin-bottom: 20px;
+}
 .main-nav a {
     text-decoration: none;
     font-family: CenturyRegular;
@@ -29,56 +29,120 @@ body {
     padding-right: 15px;
     padding-bottom: 8px;
 }
-
 .content {
     padding: 30px;
 }
-
 .content p {
     color: #434f60;
     margin-bottom: 20px;
 }
 
-#our-services-parent {
+#magic-line {
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 120px;
+    height: 3px;
+    background: #3bb7e8;
+    margin-left: 50px;
+    margin-right: -20px;
+}
+
+#our-services-parent,
+#mission-parent {
     position: relative;
 }
 
-.parallax-2 {
+.parallax-2,
+.parallax-3 {
     position: relative;
     height: 519px;
     overflow: hidden;
+    width: 120%;
 }
 
-.parallax-2 .services-image {
+.parallax-2 .services-image,
+.parallax-3 .services-image {
     position: absolute;
     width: 100%;
     height: 300%;
     top: -650px;
 }
 
-.our-section {
+.parallax-2 .mission-image,
+.parallax-3 .mission-image {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: -750px;
+}
+
+.parallax-2 .overflow-block-bottom,
+.parallax-3 .overflow-block-bottom {
+    width: 120%;
+    height: 119px;
+    background: #fff;
+    position: absolute;
+    bottom: -73px;
+    left: -30px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 5;
+    transform: rotateZ(3deg);
+}
+
+.parallax-2 .overflow-block-bottom-blue,
+.parallax-3 .overflow-block-bottom-blue {
+    width: 120%;
+    height: 119px;
+    background: #3bb7e8;
+    position: absolute;
+    bottom: -73px;
+    left: -30px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 5;
+    transform: rotateZ(3deg);
+}
+
+.parallax-2 .overflow-block-top,
+.parallax-3 .overflow-block-top {
+    width: 120%;
+    height: 119px;
+    background: #fff;
+    position: absolute;
+    top: -60px;
+    left: -30px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 5;
+    transform: rotateZ(3deg);
+}
+
+.our-section,
+#mission-parent .mission {
     position: absolute;
     z-index: 2;
     top: 0;
     margin-top: 100px;
 }
-
 .our-section p {
     text-transform: uppercase;
     font-family: CenturyRegular;
     font-size: 200%;
     color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
-
 .our-section ul li:nth-child(2n+1) {
     background: rgba(50, 58, 71, 0.33);
 }
-
 .our-section ul li {
     padding: 10px;
     margin-bottom: 10px;
+    opacity: 0;
 }
-
 .our-section ul li a {
     transition: .2s ease;
     display: block;
@@ -86,7 +150,6 @@ body {
     color: #fff;
     text-decoration: none;
 }
-
 .our-section ul li a:after {
     transition: .2s ease;
     content: '';
@@ -98,11 +161,9 @@ body {
     border-left: 8px solid #fff;
     right: 0;
 }
-
 .our-section ul li a:hover {
     padding-left: 50px;
 }
-
 .our-section ul li a:hover:after {
     /*-webkit-transform-origin: 100% 0;
               -moz-transform-origin: 100% 0;
@@ -115,4 +176,38 @@ body {
     -o-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+.user-message {
+    opacity: 0;
+}
+
+.user-message .article-title {
+    font-family: CenturyRegular;
+    font-size: 140%;
+    color: #3bb7e8;
+}
+
+.user-message .portrait {
+    height: 344px;
+    width: 250px;
+}
+
+#mission-parent .mission {
+    margin-top: 120px;
+}
+
+#mission-parent .mission .mission-title {
+    font-family: CenturyRegular;
+    font-size: 140%;
+    color: #434f60;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#mission-parent .mission .mission-text {
+    background: rgba(50, 58, 71, 0.6);
+    color: #fff;
+    padding: 20px;
 }
